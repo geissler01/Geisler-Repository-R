@@ -41,10 +41,21 @@ body {
     font-size: 30px;
 }
 
-.python img, .html-css img, .js img {
-    max-width: 100%;
+/* .python, .html-css, .js {
+    position: relative;
+    height: 200px;
+} */
+
+.python video, .html-css video, .js video {
+    aspect-ratio: 2.5 / 2;
     height: auto;
+    max-width: 100%;
     display: block;
+    
+    /* width: 100%; */
+    /* min-width: 100%;
+    height: 100px; */
+    
 }
 .python a, .html-css a, .js a{
     text-decoration: none;
@@ -52,4 +63,15 @@ body {
 
 .card-img img {
     height: 300px;
+}
+
+/* gradientes */
+.bg-python {
+    background: linear-gradient(135deg, #306998, #4B8BBE, #FFD43B);
+}
+.bg-js {
+    background: linear-gradient(135deg, #0f0f0f, #1f1f1f, #f7df1e);
+}
+.bg-html-css {
+    background: linear-gradient(135deg, #842512, #5e1134, #1fa2ff);
 }
