@@ -43,6 +43,8 @@ body {
 
 .python img, .html-css img, .js img {
     max-width: 100%;
+    height: auto;
+    display: block;
 }
 .python a, .html-css a, .js a{
     text-decoration: none;
